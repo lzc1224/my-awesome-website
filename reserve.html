@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Player Reservation - Poker & Baccarat Club</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <h1>Player Reservation</h1>
+  <form>
+    <label for="player-name">Name:</label>
+    <input type="text" id="player-name" name="player-name" required>
+    <label for="reservation-date">Date:</label>
+    <input type="date" id="reservation-date" name="reservation-date" required>
+    <label for="game-type">Game:</label>
+    <select id="game-type" name="game-type" required>
+      <option value="">Select a game</option>
+      <option value="poker">Poker</option>
+      <option value="baccarat">Baccarat</option>
+    </select>
+    <button type="submit">Reserve</button>
+  </form>
+  <a href="index.html">Back to Home</a>
+</body>
+</html>
